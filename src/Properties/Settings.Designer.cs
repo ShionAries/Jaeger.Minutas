@@ -25,7 +25,7 @@ namespace Jaeger.Minutas.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Server=localhost;Port=3306;Database=jaeger_minutas;Uid=root;Pwd=ipr9811;")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Server=localhost;Port=4530;Database=jaeger_minutas;Uid=root;Pwd=ipr9811;")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));

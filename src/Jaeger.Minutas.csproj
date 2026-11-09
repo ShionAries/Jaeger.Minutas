@@ -126,8 +126,6 @@
     <Compile Include="Domain\Entities\MinutaTema.cs" />
     <Compile Include="Domain\Entities\StatusModel.cs" />
     <Compile Include="Domain\Entities\UsuarioCorporativo.cs" />
-    <Compile Include="Domain\Enums\EstadoAsistenciaEnum.cs" />
-    <Compile Include="Domain\Enums\EstadoMinutaEnum.cs" />
     <Compile Include="Domain\Exceptions\MinutaConcurrenteException.cs" />
     <Compile Include="Domain\Repositories\IMinutaAuditoriaRepository.cs" />
     <Compile Include="Domain\Repositories\IMinutaDetalleRepository.cs" />
@@ -232,7 +230,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Database\" />
+    <Folder Include="Tests\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

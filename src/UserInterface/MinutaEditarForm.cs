@@ -45,9 +45,9 @@ namespace Jaeger.Minutas.UserInterface {
 
         private void ConfigurarBarrasHerramientas() {
             //AgregarBarraHerramientas(tabPage1, _asistentes, "asistentes");
-            //AgregarBarraHerramientas(tabPage2, _temas, "temas");
-            //AgregarBarraHerramientas(tabPage3, _acuerdos, "acuerdos");
-            //AgregarBarraHerramientas(tabPage4, _tareas, "tareas");
+            AgregarBarraHerramientas(tabPage2, _temas, "temas");
+            AgregarBarraHerramientas(tabPage3, _acuerdos, "acuerdos");
+            AgregarBarraHerramientas(tabPage4, _tareas, "tareas");
         }
 
         private void AgregarBarraHerramientas(TabPage pagina, DataGridView grid, string tipo) {
@@ -70,6 +70,7 @@ namespace Jaeger.Minutas.UserInterface {
             grid.Dock = DockStyle.Fill;
             grid.AllowUserToAddRows = false;
             grid.AllowUserToDeleteRows = false;
+            barra.SendToBack();
         }
 
         private void AgregarElemento(string tipo) {
